@@ -1,4 +1,5 @@
 require "ecr"
+require "file_utils"
 
 abstract class Slide
   def build
@@ -37,6 +38,11 @@ end
 
 slides_dir = "#{__DIR__}/../slides/"
 output_dir = "#{__DIR__}/../playground/"
+
+Dir["#{output_dir}/snippet-*.cr"].each do |file|
+  FileUtils.rm_r(file)
+end
+
 p = Presentation.new
 
 Dir["#{slides_dir}/*"].each do |file|
