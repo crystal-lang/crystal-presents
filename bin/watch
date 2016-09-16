@@ -1,0 +1,2 @@
+#!/bin/sh
+ls -d ${0%/*}/../slides/* | entr sh -c "${0%/*}/build-slides && chrome-cli reload"
