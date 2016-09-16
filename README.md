@@ -20,7 +20,7 @@ Numbering them as:
 1. `010-`
 2. `020-`
 
-will allow you to easy put slides in between ;-).
+will allow you to easy put slides in between ;-). Use `./bin/add [Slide title]` to create this files automatically.
 
 In a `.md` file you can use ````playground` to include a interactive playground snippet.
 
