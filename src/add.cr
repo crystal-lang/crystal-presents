@@ -1,5 +1,5 @@
 title = ARGV.join(" ")
-filename = ARGV.join("_").underscore
+filename = ARGV.join("-").underscore.gsub(/[^0-9a-zA-Z_]/, "-")
 
 slides_dir = "#{__DIR__}/../slides/"
 
