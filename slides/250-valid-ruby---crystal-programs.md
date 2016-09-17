@@ -1,3 +1,6 @@
+---
+transition: fade-in slide-out
+---
 ## Valid Ruby & Crystal programs
 
 ```playground

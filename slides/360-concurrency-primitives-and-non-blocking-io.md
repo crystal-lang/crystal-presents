@@ -14,9 +14,9 @@ spawn do
 end
 
 2.times do
-  puts channel.receive
+  channel.receive
 end
 ```
 
 Note:
-TBD: playground is breaking here
+TBD: unable to puts channel.receive due to bug in output playground (?)

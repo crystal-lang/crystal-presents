@@ -1,3 +1,6 @@
+---
+transition: fade-in slide-out
+---
 ## Mandatory type annotations
 
 ```playground

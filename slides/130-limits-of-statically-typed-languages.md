@@ -1,3 +1,6 @@
+---
+transition: fade-in slide-out
+---
 ## Limits of statically typed languages
 
 ```playground

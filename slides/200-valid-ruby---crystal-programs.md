@@ -1,3 +1,6 @@
+---
+transition: fade
+---
 ## Valid Ruby & Crystal programs
 
 ```playground
