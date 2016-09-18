@@ -19,3 +19,7 @@ body {
 .reveal span.hljs-keyword {
   font-weight: bold;
 }
+
+.reveal span.hljs-number {
+  color: #3a3;
+}
