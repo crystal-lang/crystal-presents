@@ -1,4 +1,4 @@
-## Crystal features not present in Ruby
+## Non-Ruby Crystal features
 
 * Type annotations
 * Overloads

@@ -1,5 +1,8 @@
 ## Our challenge
 
+"Ruby feeling" + static types + compiled
+
+Note:
 * Statically typed, compiled languages are usually associated with either many type annotations or a lot of boilerplate or ceremony
 * They aren't as flexible as dynamically typed, interpreted languages
 * We want a language that is statically typed and compiled but feels, in most cases, like a dynamically typed, interpreted language

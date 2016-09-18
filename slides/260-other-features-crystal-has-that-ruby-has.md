@@ -1,11 +1,8 @@
-## Other features Crystal has that Ruby has
+## Other Ruby features in Crystal
 
-* Classes, subclasses
-* Modules, include, extend
+* Classes, inheritance, modules, include, extend
 * Operator overloading
-* Many string literals, heredoc, string interpolation
-* Ranges and range literals
-* Regex and regex literals, also with interpolation
+* String, range, regex literals, heredoc, interpolation
 * Named (keyword) arguments
 * Multi-assignment (`x, y = y, x`)
 * Blocks, procs and closures
