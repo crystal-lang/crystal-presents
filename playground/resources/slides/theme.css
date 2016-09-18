@@ -23,3 +23,7 @@ body {
 .reveal span.hljs-number {
   color: #3a3;
 }
+
+.reveal iframe {
+  width: 92%;
+}
