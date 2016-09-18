@@ -50,3 +50,8 @@ $ ./bin/watch
 * [entr](http://entrproject.org/)
 * [chrome-cli](https://github.com/prasmussen/chrome-cli)
 
+## PDF Export
+
+Compile the slides with `./bin/build-slides --no-playground`. This will embed the playground snippets as plain source code, better for printing.
+
+Open [http://localhost:8080/workbook/playground/slides?print-pdf](http://localhost:8080/workbook/playground/slides?print-pdf). Read more in [Reveal.js - PDF Export section](https://github.com/hakimel/reveal.js#pdf-export).

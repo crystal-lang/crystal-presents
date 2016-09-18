@@ -1,2 +1,2 @@
 #!/bin/sh
-crystal ${0%/*}/../src/build.cr
+crystal ${0%/*}/../src/build.cr -- "$@"

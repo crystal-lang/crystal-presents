@@ -32,11 +32,15 @@ class MarkdownSlide < Slide
   def build
     super
 
-    @content = @content.sub /^```playground(.*)^```/m do |str, match|
-      base_slide_name = File.basename(@file, File.extname(@file))
-      code_file_name = "snippet-#{base_slide_name}"
-      File.write("#{@output_dir}/#{code_file_name}.cr", match[1].lstrip)
-      "<iframe src='#{code_file_name}' class='stretch'></iframe>"
+    if ARGV[0]? == "--no-playground"
+      @content = @content.gsub("```playground", "```ruby")
+    else
+      @content = @content.sub /^```playground(.*)^```/m do |str, match|
+        base_slide_name = File.basename(@file, File.extname(@file))
+        code_file_name = "snippet-#{base_slide_name}"
+        File.write("#{@output_dir}/#{code_file_name}.cr", match[1].lstrip)
+        "<iframe src='#{code_file_name}' class='stretch'></iframe>"
+      end
     end
   end
 
