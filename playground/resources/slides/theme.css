@@ -1,0 +1,21 @@
+body {
+  background-color: #eee;
+}
+
+.reveal {
+  color: #222;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  color: #222;
+}
+
+.reveal code {
+  font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
+  font-size: 22px;
+  line-height: 1.46em;
+}
+
+.reveal span.hljs-keyword {
+  font-weight: bold;
+}

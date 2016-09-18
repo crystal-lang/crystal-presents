@@ -8,8 +8,6 @@ header, footer {
   line-height: 1.46em;
 }
 
-@media only screen and (min-width: 993px) {
-  .container {
-      width: 85%;
-  }
+.container {
+  width: 98%;
 }
