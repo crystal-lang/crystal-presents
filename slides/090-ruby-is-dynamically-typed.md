@@ -2,7 +2,7 @@
 
 What happens when we execute this program without arguments?
 
-```
+```ruby
 if ARGV.empty?
   x = 1
 else
