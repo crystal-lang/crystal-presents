@@ -6,7 +6,7 @@ What happens when we **compile** the same program in Crystal?
 if ARGV.empty?
   x = 1
 else
-  x = "hi"
+  x = nil
 end
 
 puts x + 2

@@ -6,7 +6,7 @@ What happens when we **compile** the same program in Crystal?
 x = 1
 puts x
 
-puts x.undefined
+puts x.oops
 ```
 
 Note:

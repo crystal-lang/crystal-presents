@@ -1,6 +1,6 @@
 ## Non-Ruby Crystal features
 
-* Type annotations
+<!-- * Type annotations -->
 * Overloads
 * Generics
 * Macros

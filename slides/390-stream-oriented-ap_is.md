@@ -1,7 +1,7 @@
 ## Stream-oriented APIs
 
 ```playground
-struct Point
+class Point
   def initialize(@x : Int32, @y : Int32)
   end
 
@@ -10,3 +10,7 @@ struct Point
   end
 end
 ```
+
+Note:
+
+We are not ruby compatible.

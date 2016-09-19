@@ -1,12 +1,12 @@
 ## Ruby is dynamically typed
 
-What happens when we execute this program without arguments?
+What's the output of this program?
 
 ```ruby
 if ARGV.empty?
   x = 1
 else
-  x = "hi"
+  x = nil
 end
 
 puts x + 2

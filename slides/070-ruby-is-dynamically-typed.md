@@ -6,5 +6,5 @@ What happens when we execute this program?
 x = 1
 puts x
 
-puts x.undefined
+puts x.oops
 ```

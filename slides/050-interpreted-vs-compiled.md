@@ -1,6 +1,6 @@
-## Compiled vs. Interpreted
+## Interpreted vs. Compiled
 
-```playground
+```ruby
 array = [1, 2, 3]
 puts array.size
 ```
