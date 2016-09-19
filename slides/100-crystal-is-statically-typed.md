@@ -4,12 +4,12 @@ What happens when we **compile** the same program in Crystal?
 
 ```playground
 if ARGV.empty?
-  x = 1
+  x = "hello"
 else
   x = nil
 end
 
-puts x + 2
+puts x.size
 ```
 
 Note:
