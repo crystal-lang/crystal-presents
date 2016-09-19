@@ -1,14 +1,16 @@
+---
+transition: slide-in fade-out
+---
+
 ## Statically typed...?
 
 ```ruby
-def greet(someone : String, greeting : String)
-  result : String = "#{greeting} #{someone}!"
-  puts result
+def shade_pixel(ray : Ray, obj : Sphere, tval : Float64) : Int32
+  pi : Vector = ray.orig + ray.dir.scale(tval)
+  color : Color = diffuse_shading(pi, obj, LIGHT1)
+  col : Float64 = (color.r + color.g + color.b) / 3.0
+  (col * 6.0).to_i
 end
-
-someone : String = "world"
-greeting : String = "Hello"
-greet(someone, greeting)
 ```
 
 Note:
