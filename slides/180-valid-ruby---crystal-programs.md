@@ -4,7 +4,7 @@ transition: fade
 ## Valid Ruby & Crystal programs
 
 ```playground
-[1, 2, 3].map { |x| x + 1 }
+[1, 2, 3].map { |x| x.to_s }
 ```
 
 Note:
