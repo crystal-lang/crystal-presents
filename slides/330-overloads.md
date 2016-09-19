@@ -1,16 +1,15 @@
 ## Overloads
 
 ```playground
-class String
-  def [](index : Int32)
-    # return char at index
-  end
-
-  def [](range : Range)
-    # return substring at range
-  end
+def foo(x : String)
+  "Got string: #{x}"
 end
 
-puts "hello"[0]
-puts "hello"[1..-1]
+def foo(x : Int32)
+  "Got int: #{x}"
+end
+
+puts foo("hello")
+puts foo(1)
+puts foo(rand < 0.5 ? "world" : 2)
 ```
