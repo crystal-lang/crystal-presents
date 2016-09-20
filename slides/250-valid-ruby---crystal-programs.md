@@ -11,5 +11,5 @@ def foo(x)
 end
 
 x = rand < 0.5 ? 1 : nil
-p foo(x) # => 2 or nil
+p foo(x)
 ```
