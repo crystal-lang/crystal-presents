@@ -1,7 +1,7 @@
 ---
 transition: fade-in slide-out
 ---
-## Valid Ruby & Crystal programs
+## Crystal programs
 
 ```playground
 def foo(x)

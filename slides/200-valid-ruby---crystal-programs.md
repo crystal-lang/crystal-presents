@@ -1,7 +1,7 @@
 ---
 transition: fade
 ---
-## Valid Ruby & Crystal programs
+## Crystal programs
 
 ```playground
 x = rand < 0.5 ? 1 : nil

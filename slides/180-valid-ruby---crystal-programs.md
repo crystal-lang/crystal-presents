@@ -1,7 +1,7 @@
 ---
 transition: fade
 ---
-## Valid Ruby & Crystal programs
+## Crystal programs
 
 ```playground
 [10, 20, 30].map { |x| x.to_s }

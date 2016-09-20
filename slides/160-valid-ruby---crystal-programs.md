@@ -1,7 +1,7 @@
 ---
 transition: slide-in fade-out
 ---
-## Valid Ruby & Crystal programs
+## Crystal programs
 
 ```playground
 puts "Hello world!"

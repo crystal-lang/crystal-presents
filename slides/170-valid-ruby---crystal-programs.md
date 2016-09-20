@@ -1,7 +1,7 @@
 ---
 transition: fade
 ---
-## Valid Ruby & Crystal programs
+## Crystal programs
 
 ```playground
 5.times do |i|
