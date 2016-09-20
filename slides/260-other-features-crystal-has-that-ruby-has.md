@@ -8,3 +8,4 @@
 * Blocks, procs and closures
 * `#is_a?`, `#responds_to?`
 * Exceptions, `rescue`, `ensure`
+* Big standard library: HTTP, OAuth, JSON, YAML, XML, ...

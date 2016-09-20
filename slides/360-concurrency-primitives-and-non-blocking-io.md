@@ -5,7 +5,7 @@ require "http/client"
 channel = Channel(String).new
 spawn do
   channel.send(HTTP::Client.get(
-    "http://example.com").body)
+    "https://crystal-lang.org/").body)
 end
 spawn do
   channel.send(HTTP::Client.get(

@@ -1,3 +1,7 @@
+---
+transition: slide-in fade-out
+---
+
 ## Interpreted vs. Compiled
 
 ```ruby

@@ -1,6 +1,6 @@
 ## Community Status
 
-* +6000 GitHub stars: there are awesome early adopters that are contributing to shards.
+* +6000 GitHub stars: there are awesome early adopters contributing.
 * Meetups in Europe, Asia and America.
 * Documentation available in English, Russian, Portuguese, Japanese and Taiwanese.
 * +100 contributors in the compiler, stdlib, documentation and website.

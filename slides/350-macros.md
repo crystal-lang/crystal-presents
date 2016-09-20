@@ -1,18 +1,9 @@
 ## Macros
 
 ```playground
-macro attr_reader(name)
-  def {{name}}
-    @{{name}}
-  end
+define_method :greet do
+  puts "hello"
 end
 
-class Person
-  attr_reader age
-
-  def initialize(@age : Int32)
-  end
-end
-
-Person.new(18).age
+greet
 ```

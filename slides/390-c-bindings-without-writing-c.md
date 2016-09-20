@@ -14,7 +14,9 @@ res = LibPQ.exec(conn, q)
 p String.new(LibPQ.getvalue(res, 0, 0))
 ```
 
+<small>
 Source: https://github.com/will/crystal_workbook
+</small>
 
 Note:
 TBD: non working sample
