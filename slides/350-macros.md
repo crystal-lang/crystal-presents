@@ -1,18 +1,18 @@
 ## Macros
 
 ```playground
-macro getter(name)
+macro attr_reader(name)
   def {{name}}
     @{{name}}
   end
 end
 
 class Person
-  getter age
+  attr_reader age
 
   def initialize(@age : Int32)
   end
 end
 
-Person.new(18).age # => 18
+Person.new(18).age
 ```
