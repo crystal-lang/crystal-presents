@@ -2,7 +2,7 @@
 
 <!-- * Type annotations -->
 * Overloads
-* Generics
+<!-- * Generics -->
 * Macros
 * Concurrency primitives and non-blocking IO
 * C bindings without writing C
