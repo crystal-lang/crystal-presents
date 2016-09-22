@@ -1,3 +1,7 @@
+---
+transition: slide-in fade-out
+---
+
 ## Macros
 
 ```playground
