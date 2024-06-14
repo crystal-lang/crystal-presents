@@ -84,4 +84,4 @@ File.open("#{output_dir}/slides.html", "w") do |file|
   p.to_s(file)
 end
 
-puts "ok (#{Time.now})"
+puts "ok (#{Time.local})"
